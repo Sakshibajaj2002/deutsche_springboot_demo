@@ -22,7 +22,7 @@ public class EmployeeController {
     @Autowired
     private EmployeeService empservice ;
 
-    //    http://localhost:8080/api/v1/employees
+    //    http://localhost:8090/api/v1/employees
     @GetMapping
     public List<Employee> getAllEmployees() {
         return empservice.getAllEmployees();
