@@ -1,0 +1,136 @@
+2025-08-05T10:00:02.169+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Starting App using Java 24.0.1 with PID 6468 (D:\New folder\Downloads\deutsche-springboot-demo\deutsche-springboot-demo\target\classes started by DELL in D:\New folder\Downloads\deutsche-springboot-demo)
+2025-08-05T10:00:02.173+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : No active profile set, falling back to 1 default profile: "default"
+2025-08-05T10:00:02.219+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-05T10:00:02.219+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-05T10:00:03.251+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-05T10:00:03.292+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2025-08-05T10:00:03.790+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-08-05T10:00:03.803+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-05T10:00:03.803+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-05T10:00:03.845+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-08-05T10:00:03.846+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1627 ms
+2025-08-05T10:00:04.315+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-05T10:00:04.367+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-05T10:00:04.397+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-05T10:00:04.640+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-05T10:00:04.666+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-05T10:00:04.956+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ebbd373
+2025-08-05T10:00:04.958+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-05T10:00:05.023+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-05T10:00:05.699+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-05T10:00:05.739+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-05T10:00:06.065+05:30  WARN 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-05T10:00:06.097+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-05T10:00:06.401+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-08-05T10:00:06.696+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-05T10:00:06.755+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/api/v1'
+2025-08-05T10:00:06.766+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Started App in 5.009 seconds (process running for 9.528)
+2025-08-05T10:00:06.771+05:30  INFO 6468 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Started
+2025-08-05T10:25:41.609+05:30  INFO 6468 --- [deutsche-springboot-demo] [SpringApplicationShutdownHook] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-05T10:25:41.617+05:30  INFO 6468 --- [deutsche-springboot-demo] [tomcat-shutdown] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-05T10:25:41.626+05:30  INFO 6468 --- [deutsche-springboot-demo] [SpringApplicationShutdownHook] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-05T10:25:41.631+05:30  INFO 6468 --- [deutsche-springboot-demo] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-05T10:25:41.634+05:30  INFO 6468 --- [deutsche-springboot-demo] [SpringApplicationShutdownHook] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-05T10:25:46.264+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Starting App using Java 24.0.1 with PID 348 (D:\New folder\Downloads\deutsche-springboot-demo\deutsche-springboot-demo\target\classes started by DELL in D:\New folder\Downloads\deutsche-springboot-demo)
+2025-08-05T10:25:46.266+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : No active profile set, falling back to 1 default profile: "default"
+2025-08-05T10:25:46.316+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-05T10:25:46.316+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-05T10:25:47.151+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-05T10:25:47.187+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2025-08-05T10:25:47.563+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-08-05T10:25:47.572+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-05T10:25:47.573+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-05T10:25:47.605+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2025-08-05T10:25:47.606+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2025-08-05T10:25:47.937+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-05T10:25:47.969+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-05T10:25:48.007+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-05T10:25:48.207+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-05T10:25:48.227+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-05T10:25:48.456+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@427c5597
+2025-08-05T10:25:48.458+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-05T10:25:48.515+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-05T10:25:49.095+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-05T10:25:49.128+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-05T10:25:49.399+05:30  WARN 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-05T10:25:49.426+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-08-05T10:25:49.711+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-08-05T10:25:49.989+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-05T10:25:50.040+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/api/v1'
+2025-08-05T10:25:50.050+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Started App in 4.247 seconds (process running for 5.094)
+2025-08-05T10:25:50.056+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Started
+2025-08-05T10:25:50.249+05:30  INFO 348 --- [deutsche-springboot-demo] [RMI TCP Connection(2)-192.168.31.132] [                                                 ] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-05T10:25:50.249+05:30  INFO 348 --- [deutsche-springboot-demo] [RMI TCP Connection(2)-192.168.31.132] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-05T10:25:50.251+05:30  INFO 348 --- [deutsche-springboot-demo] [RMI TCP Connection(2)-192.168.31.132] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-05T10:27:38.466+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-4] [68918f42d7893530d5b24beaece4105e-9ae11c96d0c02c16] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:27:38.617+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-5] [68918f42914d747945c9dd401d05f2d0-55142c1e8e33eea1] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:27:39.494+05:30  WARN 348 --- [deutsche-springboot-demo] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2025-08-05T10:27:39.494+05:30  WARN 348 --- [deutsche-springboot-demo] [AsyncReporter{ZipkinHttpClientSender{http://localhost:9411/api/v2/spans}}] [                                                 ] z.r.i.AsyncReporter$BoundedAsyncReporter : Dropped 18 spans due to ConnectException()
+
+java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:923) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:na]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinHttpClientSender.postSpans(ZipkinHttpClientSender.java:60) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:69) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.HttpSender.postSpans(HttpSender.java:41) ~[spring-boot-actuator-autoconfigure-3.5.4.jar:3.5.4]
+	at zipkin2.reporter.BaseHttpSender.send(BaseHttpSender.java:123) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:266) ~[zipkin-reporter-3.5.1.jar:na]
+	at zipkin2.reporter.internal.AsyncReporter$Flusher.run(AsyncReporter.java:352) ~[zipkin-reporter-3.5.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+Caused by: java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1046) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:215) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:268) ~[java.net.http:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:226) ~[java.net.http:na]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:980) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:957) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:556) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1819) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) ~[na:na]
+	... 1 common frames omitted
+Caused by: java.nio.channels.ClosedChannelException: null
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942) ~[na:na]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:203) ~[java.net.http:na]
+	... 9 common frames omitted
+
+2025-08-05T10:27:46.904+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-8] [68918f4adc9930ebbeebd21e3462bb06-913d004abc11cf3b] c.d.demo.services.EmployeeService        : Employee with the id 101
+2025-08-05T10:27:46.925+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-9] [68918f4afb76cdfe9a9648776ea8a048-43cd916bef509176] c.d.demo.services.EmployeeService        : Employee with the id 101
+2025-08-05T10:27:48.713+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-10] [68918f4c813e41a11f0eca5604e19810-b80e02bb2325021b] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:27:48.728+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-2] [68918f4c197e3938f68853e2c7f8ea41-3edea6b03a4dafab] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:27:50.235+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-4] [68918f4eb95a1913878c9c9d55f6a296-5d28c8555e3f263b] c.d.demo.services.EmployeeService        : Employee with the id 102
+2025-08-05T10:27:50.248+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-5] [68918f4e71fd9806baf4cafbe05a8365-f2f7ad050babf082] c.d.demo.services.EmployeeService        : Employee with the id 102
+2025-08-05T10:27:51.657+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-6] [68918f4f9789c08dfe642fe74f892fde-68242f67290831dd] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:27:51.663+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-7] [68918f4f4c57fc0bd2f2219390c49efd-5dfe9a86c95bbad4] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:38:27.022+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-10] [689191cb775d05ea558f5f3321d2a3ce-b387bd12b8c0ae50] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T10:38:27.034+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-2] [689191cba92423f40901e33b6fdddeeb-88a02137b2d19add] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T11:00:04.264+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-8] [689196dce25600d79a1941e5a040e4a6-39df762d6b844b64] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T11:00:04.278+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-9] [689196dc1cabbbfbd8b735eba8e9f291-dd999b40fe3b0ac7] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T11:05:01.467+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-1] [689198052052826c6a7e554f837bc80b-f84b2af6c547b477] c.d.demo.services.EmployeeService        : Adding employee: Employee{id=null, name='Sakshi', salary=20000.0}
+2025-08-05T11:15:23.719+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-5] [68919a730de7ab60118d429e03445041-593f6d4673a74ed0] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T11:15:23.730+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-7] [68919a73d1ffb198e5c325463a422bcc-8ad0fa39f2ba8a6d] c.d.demo.services.EmployeeService        : get all employees
+2025-08-05T11:15:52.101+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-6] [68919a902c5135e4375361b6278c8084-6d32ec16e0b354d9] c.d.demo.services.EmployeeService        : Adding employee: Employee{id=null, name='Gonu', salary=90000.0}
+2025-08-05T11:19:00.467+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-5] [68919b4cac069639512272e25ebbd745-609e6e1e718eef28] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 120 ms
+2025-08-05T11:20:08.736+05:30  INFO 348 --- [deutsche-springboot-demo] [http-nio-8090-exec-9] [68919b90abe51aa2737a36c3480ed673-6fdbc645a819273f] c.d.demo.services.EmployeeService        : Updating employee: Employee{id=107, name='Sakshi', salary=1.0E7}
+2025-08-05T11:37:00.551+05:30  INFO 348 --- [deutsche-springboot-demo] [File Watcher] [                                                 ] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (0 additions, 10 deletions, 0 modifications)
+2025-08-05T11:37:00.554+05:30  INFO 348 --- [deutsche-springboot-demo] [Thread-5] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-05T11:37:00.558+05:30  INFO 348 --- [deutsche-springboot-demo] [tomcat-shutdown] [                                                 ] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-05T11:37:00.563+05:30  INFO 348 --- [deutsche-springboot-demo] [Thread-5] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-05T11:37:00.565+05:30  INFO 348 --- [deutsche-springboot-demo] [Thread-5] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-05T11:37:00.568+05:30  INFO 348 --- [deutsche-springboot-demo] [Thread-5] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-05T11:37:01.512+05:30  INFO 348 --- [deutsche-springboot-demo] [restartedMain] [                                                 ] com.deutsche.demo.App                    : Starting...
